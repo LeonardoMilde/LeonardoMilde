@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+
+  a {
+    color: aquamarine;
+  }
+
+  a:hover {
+    color: red;
+  }
+  
+  nav ul {
+    display: flex;
+  }
+ 
+  nav li {
+    margin-left: 20px;
+
+.destaque-item {
+  flex: 1 1 30%;
+  margin-bottom: 20px;
+}
+
+.destaque-item img {
+  width: 100%;
+}
+
+font-family: 'Lato', sans-serif;    
+
+.destaque-item1{
+  width: 500px;
+  height: 350px;
+}
